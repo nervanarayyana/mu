@@ -7,7 +7,6 @@ executors:
         auth:
           username: $DOCKER_HUB_USER
           password: $DOCKER_HUB_PASSWORD
-    # Catatan: Pastikan kuota kredit mencukupi untuk 100 instance 'large'
     resource_class: large 
 
 jobs:
